@@ -41,6 +41,7 @@ The file should follow something like this
 
 The start of a file would typically look like this:
 
-`"userId","MessageType","MessageContent","Extra"`<br>
-`25123,2,"Hi! How is your day?",""`<br>
-<sub>idk md</sub>
+```
+"userId","MessageType","MessageContent","Extra"
+25123,2,"Hi! How is your day?",""
+```

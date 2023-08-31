@@ -1,0 +1,19 @@
+{
+  "name": "csv_parser",
+  "version": "1.0.0",
+  "description": "Parsing csv files into something rec room is a little more happy with :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/presto1241/CSV_Parser_For_RR.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/presto1241/CSV_Parser_For_RR/issues"
+  },
+  "homepage": "https://github.com/presto1241/CSV_Parser_For_RR#readme"
+}

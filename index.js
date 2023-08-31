@@ -244,13 +244,21 @@ function Start_CSV_Parse(Header,Data){
             {
                 case 0:
                     Sequence = "true";
-                    break;
-                    case 1:
-                        Sequence = "false";
-                        break;
-                    }
-                }
+                break;
+
+                case 1:
+                    Sequence = "false";
+                break;
+            }
+        }
                 
+                if ( ifinRange(Math.max(parseIndex,dataTypes.indexOf(currentHeader[1])),1,2) == 1 && SequenceParse=="" ) {
+                    Sequence = "0";
+                }
+                if ( Math.max(parseIndex,dataTypes.indexOf(currentHeader[1])) == 0 && SequenceParse == "" ) {
+                    Sequence = "false";
+                }
+
                 //Simple check if we are at element 0 before inserting a comma.
                 if (Current_Element != 0)
                 {
@@ -293,6 +301,19 @@ function strictParseFloat(str) {
         return NaN;
     }
 }
+
+function ifinRange(value,min,max)
+{
+    if(value >= min && value <= max)
+    {
+        return true;
+    }else
+    {
+        return false;
+    }
+
+}
+
 
 function removeHyphens(arr) {
     return arr.map(str => str.replace(/-/g, ''));

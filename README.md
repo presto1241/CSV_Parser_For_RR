@@ -30,3 +30,17 @@ The script **should** launch a file explorer window waiting for you to select a 
 When you select the file, it should automatically generate all the data needed to update `Data.txt` and `Schema.txt`. Then it will let you know when it finishes!
 
 Then you can copy+paste the data into rec room and call it a day!
+
+---
+
+# What should the csv file look like?
+
+The file should follow something like this
+- First line should be the header. Its fine to not have the actual datatype. But the names or number of collums is needed.
+- After, should be all the data. This can stay true to a normal csv file. You don't need to change anything here :)
+
+The start of a file would typically look like this:
+
+`"userId","MessageType","MessageContent","Extra"`<br>
+`25123,2,"Hi! How is your day?",""`<br>
+<sub>idk md</sub>

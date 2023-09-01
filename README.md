@@ -1,10 +1,11 @@
-<sub> I bring you...
+<sub> I bring you... </sub>
+
 # CSV_Parser_For_RR
 # !!!
 Creating a CSV parser from scratch... Small project, but I wanted to do it since it seemed fun :)
 
 ---
-<br>
+
 
 # How do I install this?
 
@@ -14,7 +15,7 @@ Its very simple! All you need is to have [Node.js](https://nodejs.org/en/downloa
 - Next you need to go to your terminal, and go into the directory/folder you want to install this repository at.
 - When you do that, you can now run the command `git clone https://github.com/presto1241/CSV_Parser_For_RR/main`. *Optionaly you can install the .zip if you don't have git*
 ---
-<br>
+
 
 # How do I actually use the program?
 
@@ -35,7 +36,6 @@ Its very simple! All you need is to have [Node.js](https://nodejs.org/en/downloa
 5. Then you can copy+paste the data into rec room and call it a day!
 
 ---
-<br>
 
 # What should the csv file look like?
 
@@ -50,7 +50,7 @@ The start of a file would typically look like this:
 25123,2,"Hi! How is your day?",""
 ```
 ---
-<br>
+
 
 # What I plan to change in the future
 
